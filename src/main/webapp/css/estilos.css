@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, Verdana;
+}
+body{
+    background-color: #eeeeee;
+}
+main{
+    min-height: 80vh;
+    height: auto;
+    position: relative;
+    padding: 2%;
+}
+/*
+HEADER
+*/
+.cabeza{
+    background-color: white;
+    padding: 30px;
+    padding-left: 20%;
+    height: 10vh;
+    font-size: 12px;
+    border-bottom: 1px solid #c0c0c0;
+}
+/*
+FORMULARIOS
+*/
+.loginbox{
+    width: 650px; height: auto;
+    background: white;
+    color: #1769d1;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 80px 80px;
+    border-radius: 30px;
+    border: 1px solid #c0c0c0;
+    min-height: 600px;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 2px solid #1769d1;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:gray;
+    font-size: 16px;
+}
+/*
+V LOGIN
+*/
+.pLogin{
+    position: relative;
+    top: -50px;
+    font-size: 50px;
+    text-align: center;
+}
+.btnIniciarSesion{
+    border:none;
+    outline: none;
+    height: 60px;
+    background: #e0e0e0;
+    color:black;
+    font-size: 18px;
+    border-radius: 50px;
+    margin-left: 110px;
+    margin-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.btnRegistro{
+    border:none;
+    outline: none;
+    height: 60px;
+    background: #1769d1;
+    color:white;
+    font-size: 18px;
+    border-radius: 50px;
+    margin-left: 111px;
+    margin-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
